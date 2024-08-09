@@ -37,3 +37,5 @@ This is a React Native application that fetches and displays user data from an e
 - Make sure you have a stable internet connection as the app fetches user data from an external API.
 - The app is built with React Native and Expo, so ensure your environment is correctly set up to handle these technologies.
 - Soon I will add the .apk file to the repository to download the app.
+![f1431ce1-872d-44ff-a678-da19856def08](https://github.com/user-attachments/assets/0763e187-d1fd-4868-8774-ae13acf2eaf6)
+
