@@ -1,50 +1,40 @@
-# Welcome to your Expo app 👋
+# User Info App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+This is a React Native application that fetches and displays user data from an external API. The app allows you to navigate through different user profiles, view user details, and see their associated avatar images. 
 
-## Get started
+## Features
 
-1. Install dependencies
+- Fetches and displays user data including ID, username, full name, email, and password.
+- Navigation through user profiles with "Previous" and "Next" buttons.
+- Responsive design with a visually appealing color scheme using Tailwind CSS classes.
 
+
+
+## How to Run the Application Locally
+
+### Prerequisites
+
+- Node.js and npm installed on your machine.
+- Expo CLI installed globally via npm (`npm install -g expo-cli`).
+- A compatible device or emulator to run the app.
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/user-information-app.git
+2. Navigate into the project directory:
+   ```bash
+   cd user-information-app
+3. Install the required dependencies:
    ```bash
    npm install
-   ```
-
-2. Start the app
-
+4. Start the Expo development server:
    ```bash
-    npx expo start
-   ```
+   npx expo start
 
-In the output, you'll find options to open the app in a
+### Notes
+- Make sure you have a stable internet connection as the app fetches user data from an external API.
+- The app is built with React Native and Expo, so ensure your environment is correctly set up to handle these technologies.
+![f1431ce1-872d-44ff-a678-da19856def08](https://github.com/user-attachments/assets/0763e187-d1fd-4868-8774-ae13acf2eaf6)
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
